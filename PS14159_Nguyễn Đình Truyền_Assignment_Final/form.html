@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab10Bai2</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+
+    <body>
+        <div class="form-group">
+
+        </div>
+        <div class="form-group">
+            <label for="">họ và tên</label><br>
+            <input type="text" class="form-control"><br>
+        </div>
+        <div class="form-group">
+            <fieldset>
+                <legend>giới tính:</legend>
+                <label for=""><input type="radio" name="gender">NAM</label>
+                <label for=""><input type="radio" name="gender">Nữ</label>
+            </fieldset>
+        </div>
+        <div class="form-group">
+            <label for="">Ngày sinh</label><br>
+            <input type="date" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Điểm</label><br>
+            <input type="number" min="0" max="10" step="0.25" class="form-control"><br>
+        </div>
+        <div class="form-group">
+            <label for="">nghề nghiệp</label><br>
+            <input list="browsers" name="browsers">
+            <datalist id="browsers">
+                <option value="Giáo sư">
+                <option value="Giáo viên">
+                <option value="Công nhân">
+                <option value="Bác sĩ">
+                <option value="Thợ ống">
+                <option value="Ca sĩ">
+            </datalist>
+       
+        <div class="form-group">
+            <fieldset>
+                <legend>Sở thích</legend>
+                <label for=""><input type="checkbox" name="hobbie">ÂM NHẠC</label>
+                <label for=""><input type="checkbox" name="hobbie">THỂ THAO</label>
+                <label for=""><input type="checkbox" name="hobbie">DU LỊCH</label>
+                <label for=""><input type="checkbox" name="hobbie">ẨM THỰC</label>
+            </fieldset>
+        </div>
+
+        <div class="form-group">
+            <label for="" tabindex="2">GHI CHÚ:</label><br>
+                <textarea name="" id="" cols="30" rows="10"class="form-control"></textarea>
+        </div>
+        <div class="form-group">
+            <button class="form-button">Đăng ký</button>
+            <button class="form-button">Nhập lại</button>
+        </div>
+    </body>
+</html>

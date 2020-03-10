@@ -1,0 +1,355 @@
+#border{
+    margin: 0 0 ;
+    height: auto;
+    background-color: white;
+    display: block;
+}
+
+/*header*/
+.header{
+    height: 100px;
+    position: relative;
+    height: auto;
+    color:gra;
+}
+
+.header > .icon{
+    position: absolute;
+    right: 94px;
+    top: -11px
+    
+}
+
+.header > .icon >a{
+    text-decoration: none;
+}
+
+.icon > a  :hover {
+    background-color:palegoldenrod;
+    border-radius: 1px;
+    color: pink;
+}
+
+.header > .icon >a  >svg{
+    padding: 0 5px;
+}
+
+.header .search{
+    border-right: 2px solid rgb(190, 178, 178);
+    padding-right: 5px;
+}
+
+.header > h3{
+    font-family: 'Sriracha', cursive;
+    font-size: 40px;
+    font-weight: initial;
+    text-align: center;
+
+}
+
+
+
+.nav{
+    line-height: 40px;
+    position: absolute;
+    top: 122px;
+    left: 443px;
+    
+}
+
+.navul{
+    position: relative;
+    list-style-type: none;
+    font-size: 12px;
+
+}
+.navul,main,footer{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.navul a{
+    text-decoration: none;
+    padding: 0 20px;
+    margin: auto;
+    color: black;
+    
+}
+
+.navul >li :hover{
+    color: brown;
+    background-color: whitesmoke;
+    border-radius: 3px ;
+}
+.navul li{
+    display: inline-block;
+}
+.navul ul{
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.navul li:hover ul{
+    display: block;
+}
+
+
+.header > .customheader{
+    background-image: url(../image/photo-of-woman-sitting-on-beach-2401109.jpg);
+    height: 460px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 86px;
+}
+
+/*main*/
+.main {
+    width: 100%;
+    height: auto;
+    margin: 75px 0px 65px 12px;
+}
+
+.main img{
+    opacity: 90%;
+    height: 500px;
+    width: 950px;
+    padding-right: 0px;
+    text-align: center;
+    
+}
+
+/*article*/
+.mainatc{
+    height: auto;
+    width: 75%;
+    float: left;
+    margin-right: 5px;
+}
+
+.article .post {
+    text-decoration: underline;
+    color: black;
+
+}
+.article p :hover{
+    color: brown;
+}
+.article h1{
+    font-weight: bold;
+    color: rgb(87, 83, 83);
+}
+
+.article > a :hover{
+    color: brown;
+}
+
+.article a{
+    text-decoration: none;
+}
+
+.article p{
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgb(87, 83, 83);
+    line-height: 20px;
+}
+
+/*aside*/
+.right{
+    width: 23%;
+    display: inline-block;
+    margin: 0px 3px;
+    
+}
+
+
+.aside input{
+    width: 60%;
+    box-sizing: border-box;
+}
+.aside label:hover{
+    box-shadow: 0 0 5px gray;
+    border-radius: 4px;
+}
+input{
+    transition:width 0.4s ease-in-out;
+    border-radius: 4px solid gray;
+    padding:  12px 20px 12px 40px;
+    box-sizing: border-box;
+    background-image: url(../image/abc.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+input:focus{
+    box-sizing: blue;
+    width: 100%;
+}
+
+
+.author{
+    text-align: center;
+    padding: 10px   15px;
+    margin-top: 60px;
+    border: 1px solid black
+}
+
+.author > img{
+    height: 80px;
+    width: auto;
+}
+
+.author > h3{
+    top: 0px;
+}
+
+.author .authorp{
+    font-weight: lighter;
+    font-size: 12px;
+    color: rgb(87, 83, 83);
+    line-height: 15px;
+}
+
+.author .authorname{
+    font-size: 15px;
+    font-weight: bold;
+    color: palevioletred;
+}
+
+.category{
+    border: 1px solid black;
+    padding: 10px   15px;
+    margin-top:10px;
+    line-height: 50px;
+}
+
+.category > .cate{
+    text-align: center;
+}
+
+.category .cateul{
+    display: block;
+    list-style-type: none;
+}
+.category .cateul{
+    text-align: left;
+    text-decoration: none;
+}
+.category a{
+    text-decoration: none;
+    color: lightcoral; 
+    font-weight: bold;
+}
+
+.category li:hover{
+    color: lightblue;
+    text-decoration: underline;
+    border-radius: 5px;
+    background-color: rgb(221, 201, 201);
+}
+
+/*tien ich*/
+
+.tienich{
+    width: 100%;
+    position: relative;
+}
+
+.bovid{
+    width: 49%;
+    margin-right: 9px;
+    float: left;
+}
+
+.vid {
+
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    
+}
+
+.vid > iframe{
+    top:0;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.tienich .fb-like{
+   position: absolute;
+   left: 0;
+   bottom: -410px;
+
+}
+
+.bomap{
+    width: 41%;
+    float: left;
+    position: absolute;
+    right: 50px;
+    bottom: -378px;
+    
+}
+
+.map{
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+
+
+}
+.map > iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0;
+
+}
+
+/* footer*/
+footer{
+    text-align: center;
+    margin: 20px auto;
+    line-height: 30px;
+    clear: both;
+    position: relative;
+    top: 130px;
+    background-color: papayawhip;
+}
+
+.icon-footer a{
+    padding: 40px 0px 60px 60px 
+}
+
+.icon-footer img:hover {
+    animation-name: icon;
+    animation-direction: normal;
+    border-radius: 100%;
+    background-color: dimgray;
+    width: 40px; height: auto;
+    
+}
+/*@keyframes icon{
+    50%{background-color: hotpink;width: 35px; height: auto;padding: 0px;}
+    100%{background-color: hotpink;width: 40px;height: auto;padding: 0px;}*/
+
+.icon-footer img{
+    width: 30px;
+    height: auto;
+    box-shadow: 0 0 4px gray;
+    border-radius: 100%;
+    position: absolute;
+    transition: width  0.5s;
+    margin-bottom: 20px;
+    
+}
+
+.icon-footer p{
+    margin-top: 10px;
+}
